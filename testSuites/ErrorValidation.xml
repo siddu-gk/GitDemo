@@ -1,0 +1,13 @@
+<suite name="Suite">
+
+<listeners>
+	<listener class-name="rahulshettyacademy.TestComponent.Listeners"></listener>
+</listeners>
+
+  <test thread-count="5" name="Error Valiation">
+    <classes>
+      <class name="rahulshettyacademy.test.ErrorValidationTest"/>
+    </classes>
+  </test>
+    
+</suite>

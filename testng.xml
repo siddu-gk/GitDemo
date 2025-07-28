@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+
+<listeners>
+	<listener class-name="rahulshettyacademy.TestComponent.Listeners"></listener>
+</listeners>
+
+  <test thread-count="5" name="Error Valiation">
+    <classes>
+      <class name="rahulshettyacademy.test.ErrorValidationTest"/>
+       <!--<methods>
+        <exclude name="loginErrorValidation"/>
+        <include name="productErrorValidation"/>
+       </methods>-->
+    </classes>
+  </test>
+  
+ <test thread-count="5" name="Purchase Order">
+   <classes>
+  	 <class name="rahulshettyacademy.test.SubmitOrderTest"/>"
+   </classes>
+  </test>
+  
+</suite>
+
+
